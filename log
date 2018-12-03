@@ -1,0 +1,27 @@
+$ ./esptool.py --port /dev/cu.SLAB_USBtoUART write_flash -fm qio 0x00000 nodemcu-master-11-modules-2018-11-30-12-31-22-integer.bin
+esptool.py v2.6-beta1
+Serial port /dev/cu.SLAB_USBtoUART
+Connecting........_
+Detecting chip type... ESP8266
+Chip is ESP8266EX
+Features: WiFi
+MAC: a0:20:a6:14:5e:a1
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0040
+Compressed 622592 bytes to 407563...
+Wrote 622592 bytes (407563 compressed) at 0x00000000 in 36.0 seconds (effective 138.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+
+get-pip.py
+brew install lua
+brew install luarocks
+luarocks install luasocket
+luarocks install lua-cjson
+
